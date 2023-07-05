@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="shortcut icon" href="../assets/isologo.svg">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style-cart.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="contenedor">
+            <div class="iconos">
+                <i class="bi bi-list"></i>
+            </div>
+    
+            <div class="logo">
+                <img src="../assets/logo-blanco.svg" alt="">
+            </div>
+    
+            <div class="iconos">
+                <i class="bi bi-person-circle"></i>
+                <i class="bi bi-cart2"></i>
+            </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1674860981">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main class="principal padd">
+        <div class="ruta">
+            <p>Inicio > Mi cuenta > <br> <b>Carrito de compras</b></p>
+        </div>
+
+        <div class="cart">
+            <article class="cart-product">
+                <div class="img-producto producto1" producto1> </div>
+                <div class="desc-producto">
+                    <p>Tarjetas personales x100u.</p>
+
+                    <div class="btn-cantidad">
+                        <button>-</button>
+                        <h2>2</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <div class="precio">
+                    <i class="bi bi-trash"></i>
+                    <p>$ 1260</p>
+                </div>
+            </article>
+
+            <article class="cart-product">
+                <div class="img-producto producto2"> </div>
+                <div class="desc-producto">
+                    <p>Etiquetas 5x8cm x100u.</p>
+
+                    <div class="btn-cantidad">
+                        <button>-</button>
+                        <h2>2</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <div class="precio">
+                    <i class="bi bi-trash"></i>
+                    <p>$ 1520</p>
+                </div>
+            </article>
+
+            <article class="cart-product">
+                <div class="img-producto producto3"> </div>
+                <div class="desc-producto">
+                    <p>Diseño Identidad Visual.</p>
+
+                    <div class="btn-cantidad">
+                        <button>-</button>
+                        <h2>2</h2>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <div class="precio">
+                    <i class="bi bi-trash"></i>
+                    <p>$ 15000</p>
+                </div>
+            </article>
+
+            <div class="subtotal">
+                <h3>Subtotal (sin envío) :</h3>
+                <h3>$ 19040</h3>
+            </div>
+        </div>
+
+        <button class="deslizar">v</button>
+
+        <form action="" class="envio">
+            <div class="cod-postal">
+                <div class="titulo-envio">
+                    <i class="bi bi-truck"></i>
+                    <p>Medios de envío</p>
+                </div>
+                
+                <div class="calcular">
+                    <input
+                    type="number"
+                    placeholder="Ingrese su código postal..."
+                    name="cod-postal"
+                    id="cod-postal"/>
+    
+                    <button>CALCULAR</button>
+                </div>
+                <p class="small">No sé mi código postal</p>
+            </div>
+
+            <div class="envio-modo">
+                <div class="titulo-envio">
+                    <i class="bi bi-truck"></i>
+                    <p>Envío a domicilio</p>
+                </div>
+
+                <div class="envio-desc">
+                    <input type="radio" name="a-domicilio" id="andreani">
+                    <label for="andreani">Andreani - envío a domicilio</label>
+                    <h4>$1237,50</h4>
+                </div>
+
+                <div class="envio-desc">
+                    <input type="radio" name="a-domicilio" id="correo-arg">
+                    <label for="correo-arg">Correo Argentino - envío a domicilio</label>
+                    <h4>$1050</h4>
+                </div>
+            </div>
+
+            <div class="envio-modo">
+                <div class="titulo-envio">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p>Retirar por:</p>
+                </div>
+
+                <div class="envio-desc">
+                    <input type="radio" name="local" id="local">
+                    <label for="local">Punto de retiro <p>Avenida Siempreviva 742 <br> Lunes a Viernes de 8 a 17hs</p></label>
+                    <h4>Gratis</h4>
+                    
+                </div>
+            </div>        
+                
+            <div class="linea"></div>
+
+            <div class="total">
+                <h2>Total :</h2>
+                <div class="monto">
+                    <h2>$19040</h2>
+                    <p class="small">o hasta <b>6</b> cuotas <b>sin interés</b> de $3173,33</p>
+                </div>
+            </div>
+            <button>INICIAR COMPRA</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="contacto">
+            <h4>Contáctanos</h4>
+            <a href=""><i class="bi bi-whatsapp"></i>  03451-2364165</a>
+            <a href=""><i class="bi bi-envelope"></i>  nalulacreaciones@gmail.com</a>
+        </div>
+
+        <div class="sigamos-conectados">
+            <h4>Sigamos conectados</h4>
+            <ul class="rrss">
+               <li><a href=""><i class="bi bi-facebook"></i></a></li>
+               <li><a href=""><i class="bi bi-instagram"></i></a></li>
+               <li><a href=""><i class="bi bi-linkedin"></i></a></li> 
+            </ul>
+        </div>
+
+        <div class="copy">
+            <p>Copyrights - 2023</p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

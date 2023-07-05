@@ -1,0 +1,204 @@
+@import url(https://fonts.google.com/specimen/Varela+Round);
+
+.ruta {
+    margin-top: -2rem;
+    z-index: 2;
+}
+
+.cart {
+    background-color: #E3E3E3;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 19rem;
+    box-shadow: 2px 2px 5px #999;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.cart-product {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.img-producto {
+    background-size: cover;
+    background-position: center;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+.producto1 {
+    background-image: url(../assets/TARJETAS3.jpg);
+}
+
+.producto2 {
+    background-image: url(../assets/ETIQUETAS\ FIESTAS\ -\ copia.jpg)
+}
+
+.producto3 {
+    background-image: url(../assets/Presentación1.jpg)
+}
+
+.desc-producto {
+    width: 50%;
+}
+
+.desc-producto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 4rem;
+}
+
+.btn-cantidad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#cecdcd;
+    width: 70%;
+    height: 1.5rem;
+    padding: 0.2rem 0.5rem;
+    gap: 1rem;
+    border-radius: 0.3rem;
+}
+
+.btn-cantidad>button {
+    width: 2rem;
+    height: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.precio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.5rem;
+    width: 4rem;
+    height: 100%;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deslizar {
+    background-color: #EFEF9E;
+    border: none;
+    padding: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 4rem;
+    /* font-family: 'Varela Round'; */
+    font-weight: bold;
+    color: #b481b8;
+    font-size: 1.2rem;
+    align-content: center;
+    margin-top: -2rem;
+}
+
+/*FORMULARIO ENVIO*/
+.envio {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo-envio {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.calcular {
+    width: 20rem;
+    border-radius: 0.8rem;
+    margin: 0.3rem 0;
+    display: flex;
+    flex-wrap:nowrap;
+    border: #999 solid 1px;
+}
+
+.calcular>input {
+    width: 70%;
+    height: 2rem;
+    border-radius: 0.8rem;
+    border: none;
+    padding: 0.3rem 1rem;
+}
+
+.calcular>button {
+    background-color: #b481b8;
+    border: none;
+    width: 35%;
+    height: 2rem;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.small {
+    margin-left: 0.8rem;
+    font-weight: bold;
+}
+
+.envio-modo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 20rem;
+}
+
+.envio-desc {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 20rem;
+    border: #999 solid 1px;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+.linea {
+    border-top: #999 solid 1px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 20rem;
+    height: 5rem;
+    color: #b481b8;
+}
+
+.monto {
+    width: 7rem;
+    text-align: end;
+}
+
+.monto>.small {
+    color: black;
+    font-weight: normal;
+    margin: 0;
+}
+
+.envio>button {
+    background-color: #b481b8;
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    color: white;
+    align-self: center;
+}
